@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadUIScenariosResults>
+  <item>
+    <scenariosCount>1</scenariosCount>
+    <scenarioName>New Scenario</scenarioName>
+    <top5Dispersion>
+      <Top5Dispersion>
+        <hintText>This graph shows when the 5 fastest and 5 slowest test case executions happened. The clustered values show the time when the issues occurred during the test run. For example, a lot of values at the beginning of the test might mean that you need a longer warm-up time for the server. Ideally, the values should be distributed evenly throughout the test duration.</hintText>
+        <yAxisName>Duration (ms)</yAxisName>
+        <xAxisName>Time</xAxisName>
+        <values1Title>Top 5</values1Title>
+        <values2Title>Bottom 5</values2Title>
+        <title>Execution dispersion</title>
+        <values2>
+          <Point>
+            <X>09:23:23</X>
+            <Y>111.0</Y>
+          </Point>
+          <Point>
+            <X>09:23:45</X>
+            <Y>111.0</Y>
+          </Point>
+          <Point>
+            <X>09:24:08</X>
+            <Y>111.0</Y>
+          </Point>
+          <Point>
+            <X>09:23:50</X>
+            <Y>112.0</Y>
+          </Point>
+          <Point>
+            <X>09:23:18</X>
+            <Y>113.0</Y>
+          </Point>
+        </values2>
+        <values1>
+          <Point>
+            <X>09:23:23</X>
+            <Y>111.0</Y>
+          </Point>
+          <Point>
+            <X>09:23:45</X>
+            <Y>111.0</Y>
+          </Point>
+          <Point>
+            <X>09:24:08</X>
+            <Y>111.0</Y>
+          </Point>
+          <Point>
+            <X>09:23:50</X>
+            <Y>112.0</Y>
+          </Point>
+          <Point>
+            <X>09:23:18</X>
+            <Y>113.0</Y>
+          </Point>
+        </values1>
+      </Top5Dispersion>
+    </top5Dispersion>
+    <topTestCases>
+      <executionNotable>
+        <timeTaken>111</timeTaken>
+        <size>1803</size>
+        <startTime>09:23:23</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>111</timeTaken>
+        <size>1803</size>
+        <startTime>09:23:45</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>111</timeTaken>
+        <size>1803</size>
+        <startTime>09:24:08</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>112</timeTaken>
+        <size>1803</size>
+        <startTime>09:23:50</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>113</timeTaken>
+        <size>1803</size>
+        <startTime>09:23:18</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+    </topTestCases>
+    <bottomTestSteps>
+      <executionNotable>
+        <timeTaken>648</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:27</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->GetAllProducts_P</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>612</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:27</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->GetAllProducts_P</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>611</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:27</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->GetAllProducts_P</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>610</timeTaken>
+        <size>1803</size>
+        <startTime>09:23:18</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->GetAllProducts_P</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>600</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:27</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->GetAllProducts_P</testCaseName>
+      </executionNotable>
+    </bottomTestSteps>
+    <loadTargetsContinue>
+      <loadTarget>
+        <maxTime>973</maxTime>
+        <targetName>TestSuite_Create Items API:FED-9_LoadTest</targetName>
+        <requestsCount>539</requestsCount>
+        <percentile98>537.40</percentile98>
+        <medianTime>133</medianTime>
+        <averageTime>155</averageTime>
+        <percentile75>149.00</percentile75>
+        <minTime>111</minTime>
+        <failuresCount>0</failuresCount>
+        <percentile95>229.00</percentile95>
+        <percentile90>184.00</percentile90>
+        <failuresRatio>0</failuresRatio>
+        <standardDeviation>80</standardDeviation>
+      </loadTarget>
+    </loadTargetsContinue>
+    <topTestSteps>
+      <executionNotable>
+        <timeTaken>0</timeTaken>
+        <size>0</size>
+        <startTime>09:22:11</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>0</timeTaken>
+        <size>0</size>
+        <startTime>09:22:12</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>0</timeTaken>
+        <size>0</size>
+        <startTime>09:22:12</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>0</timeTaken>
+        <size>0</size>
+        <startTime>09:22:15</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>0</timeTaken>
+        <size>0</size>
+        <startTime>09:22:16</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+      </executionNotable>
+    </topTestSteps>
+    <graphicalData>
+      <GraphicalData>
+        <hintText/>
+        <metricsTitle/>
+        <param3Name>Failure ratio</param3Name>
+        <param1Name>Test case runs, including loops</param1Name>
+        <param1Value>539</param1Value>
+        <param2Name>Failed test cases</param2Name>
+        <param2Value>0</param2Value>
+        <title>Information on target test cases</title>
+        <param3Value>0%</param3Value>
+      </GraphicalData>
+      <GraphicalData>
+        <hintText/>
+        <metricsTitle/>
+        <param3Name>Failure ratio</param3Name>
+        <param1Name>Test step runs, including loops</param1Name>
+        <param1Value>1078</param1Value>
+        <param2Name>Failed test steps</param2Name>
+        <param2Value>0</param2Value>
+        <title>Executed test step(s) summary</title>
+        <param3Value>0%</param3Value>
+      </GraphicalData>
+      <GraphicalData>
+        <hintText>A great difference between response time values may indicate server issues.</hintText>
+        <metricsTitle>ms</metricsTitle>
+        <param3Name>Average</param3Name>
+        <param1Name>Longest</param1Name>
+        <param1Value>973</param1Value>
+        <param2Name>Shortest</param2Name>
+        <param2Value>111</param2Value>
+        <title>Response time</title>
+        <param3Value>155</param3Value>
+      </GraphicalData>
+    </graphicalData>
+    <bottomTestCases>
+      <executionNotable>
+        <timeTaken>973</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:06</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>648</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:26</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>612</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:26</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>611</timeTaken>
+        <size>1803</size>
+        <startTime>09:22:26</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+      <executionNotable>
+        <timeTaken>610</timeTaken>
+        <size>1803</size>
+        <startTime>09:23:17</startTime>
+        <testCaseName>TestSuite_Create Items API:FED-9_LoadTest</testCaseName>
+      </executionNotable>
+    </bottomTestCases>
+    <loadTargets>
+      <loadTarget>
+        <maxTime>973</maxTime>
+        <targetName>TestSuite_Create Items API:FED-9_LoadTest</targetName>
+        <requestsCount>539</requestsCount>
+        <percentile98>537.40</percentile98>
+        <medianTime>133</medianTime>
+        <averageTime>155</averageTime>
+        <percentile75>149.00</percentile75>
+        <minTime>111</minTime>
+        <failuresCount>0</failuresCount>
+        <percentile95>229.00</percentile95>
+        <percentile90>184.00</percentile90>
+        <failuresRatio>0</failuresRatio>
+        <standardDeviation>80</standardDeviation>
+      </loadTarget>
+    </loadTargets>
+    <testResults>
+      <metric>
+        <icon>dot.gif</icon>
+        <name/>
+        <category>Base Metrics</category>
+        <value/>
+        <valueIcon/>
+      </metric>
+      <metric>
+        <icon>dot.gif</icon>
+        <name>Load profile</name>
+        <category>Scenario overview</category>
+        <value>Fixed</value>
+        <valueIcon>/fixed_load_profile.png</valueIcon>
+      </metric>
+      <metric>
+        <icon>dot.gif</icon>
+        <name>Scenario targets</name>
+        <category>Scenario overview</category>
+        <value>1</value>
+        <valueIcon/>
+      </metric>
+      <metric>
+        <icon>dot.gif</icon>
+        <name>Simulated users</name>
+        <category>Scenario overview</category>
+        <value>5</value>
+        <valueIcon/>
+      </metric>
+    </testResults>
+  </item>
+</LoadUIScenariosResults>

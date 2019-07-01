@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadUIProjectGraphicalSummary>
+  <data>
+    <hintText/>
+    <metricsTitle/>
+    <param3Name>Failure ratio</param3Name>
+    <param1Name>Test case runs, including loops</param1Name>
+    <param1Value>539</param1Value>
+    <param2Name>Failed test cases</param2Name>
+    <param2Value>0</param2Value>
+    <title>Information on target test cases</title>
+    <param3Value>0%</param3Value>
+  </data>
+  <data>
+    <hintText/>
+    <metricsTitle/>
+    <param3Name>Failure ratio</param3Name>
+    <param1Name>Test step runs, including loops</param1Name>
+    <param1Value>1078</param1Value>
+    <param2Name>Failed test steps</param2Name>
+    <param2Value>0</param2Value>
+    <title>Executed test step(s) summary</title>
+    <param3Value>0%</param3Value>
+  </data>
+  <data>
+    <hintText>A great difference between response time values may indicate server issues.</hintText>
+    <metricsTitle>ms</metricsTitle>
+    <param3Name>Average</param3Name>
+    <param1Name>Longest</param1Name>
+    <param1Value>973</param1Value>
+    <param2Name>Shortest</param2Name>
+    <param2Value>111</param2Value>
+    <title>Response time</title>
+    <param3Value>155</param3Value>
+  </data>
+</LoadUIProjectGraphicalSummary>
