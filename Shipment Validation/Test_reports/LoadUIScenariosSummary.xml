@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadUIScenariosSummary>
+  <result>
+    <executionTime>00:01:00</executionTime>
+    <queuedRequestCount>1172</queuedRequestCount>
+    <assertionsCount>0</assertionsCount>
+    <testCaseName>New Scenario</testCaseName>
+    <failedAssertionsCount>0</failedAssertionsCount>
+  </result>
+</LoadUIScenariosSummary>

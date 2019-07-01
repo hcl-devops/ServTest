@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadUIBottomTestSteps>
+  <executionNotable>
+    <timeTaken>1723</timeTaken>
+    <size>0</size>
+    <startTime>10:09:04</startTime>
+    <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+  </executionNotable>
+  <executionNotable>
+    <timeTaken>1699</timeTaken>
+    <size>0</size>
+    <startTime>10:09:04</startTime>
+    <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+  </executionNotable>
+  <executionNotable>
+    <timeTaken>1698</timeTaken>
+    <size>0</size>
+    <startTime>10:09:04</startTime>
+    <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+  </executionNotable>
+  <executionNotable>
+    <timeTaken>1694</timeTaken>
+    <size>0</size>
+    <startTime>10:09:04</startTime>
+    <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+  </executionNotable>
+  <executionNotable>
+    <timeTaken>1690</timeTaken>
+    <size>0</size>
+    <startTime>10:09:04</startTime>
+    <testCaseName>TestSuite_Create Items API:FED-9_LoadTest->DataSink1</testCaseName>
+  </executionNotable>
+</LoadUIBottomTestSteps>

@@ -1,0 +1,39 @@
+Status: PASS
+Time Taken: 117
+Size: 1803
+Timestamp: Mon Jul 01 10:08:27 UTC 2019
+TestStep: GetAllProducts_P
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://items-api.cfapps.io
+Method: GET
+StatusCode: 200
+URL: http://items-api.cfapps.io/getallproducts
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/1.8.0_181)]
+Host: [items-api.cfapps.io]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+
+GET http://items-api.cfapps.io/getallproducts HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Length: 0
+Host: items-api.cfapps.io
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_181)
+
+
+---------------- Response --------------------------
+Connection: [keep-alive]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [1803]
+Date: [Mon, 01 Jul 2019 10:08:28 GMT]
+X-Vcap-Request-Id: [a7fe5571-1009-4cb5-4a22-b6bc5be8ef14]
+Content-Type: [application/json;charset=UTF-8]
+
+{"status":"ok","message":"SUCCESS","data":[{"id":1,"shortDescription":"BEKVAM - Step stool, 50 cm ","title":"Step Ladder","uom":"Piece","unitPrice":15.25,"unitPriceUom":"EURO","extnTransportMethodType":"TRUCK","organizationCode":"IKEA_GB","itemPicture":"step-ladder.JPG","unitSalePrice":9.8},{"id":2,"shortDescription":"FOLKLIG - Gas hob, 71 cm","title":"Stove","uom":"Piece","unitPrice":12.79,"unitPriceUom":"EURO","extnTransportMethodType":"PARCEL","organizationCode":"IKEA_SE","itemPicture":"stove.jpg","unitSalePrice":11.25},{"id":3,"shortDescription":"VARMA - Microwave Oven ","title":"Microwave Oven","uom":"Piece","unitPrice":35.55,"unitPriceUom":"EURO","extnTransportMethodType":"PARCEL","organizationCode":"IKEA_SE","itemPicture":"mw-owen.JPG","unitSalePrice":30.95},{"id":22,"shortDescription":"SVARTA - Loft bed frame  90x200 cm ","title":"LOFT-BED","uom":"Piece","unitPrice":189.89,"unitPriceUom":"EURO","extnTransportMethodType":"TRUCK","organizationCode":"IKEA_GB","itemPicture":"loft-bed.jpg","unitSalePrice":154.45},{"id":23,"shortDescription":"Built-in Stretch 360 for rider-friendly mobility, and zip-venting to support higher body ergonomics","title":"SOFA-BED","uom":"Piece","unitPrice":139.51,"unitPriceUom":"EURO","extnTransportMethodType":"TRUCK","organizationCode":"IKEA_SE","itemPicture":"delaktig-2-seat-sofa-with-side-table-hillared-dark-blue__0581394_pe670364_s3.jpg","unitSalePrice":121.55},{"id":24,"shortDescription":"The are heavyweight, fleece backed, body hugging baselayer that will move with you down the slopes. ","title":"SOFA-BED-05","uom":"Piece","unitPrice":125.95,"unitPriceUom":"EURO","extnTransportMethodType":"TRUCK","organizationCode":"IKEA_SE","itemPicture":"ektorp-corner-sofa-4-seat-nordvalla-dark-beige__0386485_pe559145_s3.jpg","unitSalePrice":99.95}]}

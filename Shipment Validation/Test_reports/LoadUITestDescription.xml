@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadUITestDescription>
+  <scenario>
+    <profileIcon>/fixed_load_profile.png</profileIcon>
+    <profileName>Fixed</profileName>
+    <scenarioName>New Scenario</scenarioName>
+    <targetCount>1</targetCount>
+  </scenario>
+</LoadUITestDescription>

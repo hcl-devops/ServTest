@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LoadUITestResults>
+  <metric>
+    <icon>test_case.png</icon>
+    <name>Test run result</name>
+    <category>Test results</category>
+    <value>PASS</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>dot.gif</icon>
+    <name>Duration</name>
+    <category>Test results</category>
+    <value>00:01:00</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>dot.gif</icon>
+    <name>Start time</name>
+    <category>Test results</category>
+    <value>10:08:59</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>dot.gif</icon>
+    <name>End time</name>
+    <category>Test results</category>
+    <value>10:10:00</value>
+    <valueIcon/>
+  </metric>
+  <metric>
+    <icon>dot.gif</icon>
+    <name>Maximum simultaneous virtual users</name>
+    <category>Test results</category>
+    <value>25</value>
+    <valueIcon/>
+  </metric>
+</LoadUITestResults>
