@@ -1,7 +1,7 @@
 Status: PASS
-Time Taken: 48
+Time Taken: 20
 Size: 0
-Timestamp: Tue Jul 02 18:34:31 UTC 2019
-TestStep: Groovy Script
+Timestamp: Tue Jul 02 18:34:30 UTC 2019
+TestStep: Prop1
 
 ----------------- Messages ------------------------------

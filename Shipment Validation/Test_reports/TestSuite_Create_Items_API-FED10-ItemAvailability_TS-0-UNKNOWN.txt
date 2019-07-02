@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 20
+Time Taken: 15
 Size: 301
-Timestamp: Tue Jul 02 17:27:33 UTC 2019
+Timestamp: Tue Jul 02 18:34:31 UTC 2019
 TestStep: ItemAvailability_TS
 
 ----------------- Messages ------------------------------
@@ -32,8 +32,8 @@ User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_181)
 Connection: [keep-alive]
 #status#: [HTTP/1.1 400 Bad Request]
 Content-Length: [301]
-Date: [Tue, 02 Jul 2019 17:27:35 GMT]
-X-Vcap-Request-Id: [66c982ef-176f-464a-6960-a974a228adb4]
+Date: [Tue, 02 Jul 2019 18:34:34 GMT]
+X-Vcap-Request-Id: [35fa5bc9-03e2-4bb1-45a1-26e5b7d455b0]
 Content-Type: [application/json;charset=UTF-8]
 
-{"timestamp":"2019-07-02T17:27:35.157+0000","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: \"quantity\"","path":"/itemavailability/itemId/zipCode/quantity"}
+{"timestamp":"2019-07-02T18:34:34.097+0000","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: \"quantity\"","path":"/itemavailability/itemId/zipCode/quantity"}

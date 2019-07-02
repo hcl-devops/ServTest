@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 21
+Time Taken: 20
 Size: 152
-Timestamp: Tue Jul 02 17:27:33 UTC 2019
+Timestamp: Tue Jul 02 18:34:32 UTC 2019
 TestStep: ItemAvailability_TS
 
 ----------------- Messages ------------------------------
@@ -11,7 +11,7 @@ HTTP Version: HTTP/1.1
 Endpoint: http://items-api.cfapps.io
 Method: GET
 StatusCode: 200
-URL: http://items-api.cfapps.io/itemavailability/xhfr-jla16/21401/1
+URL: http://items-api.cfapps.io/itemavailability/taeh-xue18/97301/8
 
 ---------------- Request ---------------------------
 Connection: [Keep-Alive]
@@ -20,7 +20,7 @@ Host: [items-api.cfapps.io]
 Accept-Encoding: [gzip,deflate]
 Content-Length: [0]
 
-GET http://items-api.cfapps.io/itemavailability/xhfr-jla16/21401/1 HTTP/1.1
+GET http://items-api.cfapps.io/itemavailability/taeh-xue18/97301/8 HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Length: 0
 Host: items-api.cfapps.io
@@ -32,8 +32,8 @@ User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_181)
 Connection: [keep-alive]
 #status#: [HTTP/1.1 200 OK]
 Content-Length: [152]
-Date: [Tue, 02 Jul 2019 17:27:35 GMT]
-X-Vcap-Request-Id: [db9476ed-9d27-431c-4b47-b0b1db7b4747]
+Date: [Tue, 02 Jul 2019 18:34:34 GMT]
+X-Vcap-Request-Id: [b33c32ec-0913-429c-40f9-d8cb7fad24c9]
 Content-Type: [application/json;charset=UTF-8]
 
 {"status":"ok","message":"SUCCESS","data":{"stockAvailability":"Item cannot be delivered to the selected location/zone","quantity":0.0,"timeSlot":null}}

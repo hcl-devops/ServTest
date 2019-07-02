@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="FedEx_Demo_Proj.TestSuite_Create Items API" time="3.398" tests="3" failures="0" errors="0" package="FedEx_Demo_Proj" id="1">
+  <testsuite name="FedEx_Demo_Proj.TestSuite_Create Items API" time="3.278" tests="3" failures="0" errors="0" package="FedEx_Demo_Proj" id="1">
     <properties>
       <property name="soapui.properties" value="soapui.properties"/>
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -34,7 +34,7 @@
       <property name="os.name" value="Windows Server 2012 R2"/>
       <property name="org.eclipse.jetty.util.log.class" value="com.eviware.soapui.support.log.JettyLogger"/>
       <property name="sun.jnu.encoding" value="Cp1252"/>
-      <property name="jnidispatch.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\jna-146731693\jna8188401076922196410.dll"/>
+      <property name="jnidispatch.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\jna-146731693\jna5512414591311642095.dll"/>
       <property name="java.library.path" value="C:\Program Files\SmartBear\ReadyAPI-2.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Git\bin;C:\apache-ant-1.9.7\bin;C:\apache-maven-3.3.9\bin;C:\gradle-3.1\bin;%GEN_ROCKET_HOME%\bin;C:\Program Files\SmartBear\ReadyAPI-1.8.0\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;%GEN_ROCKET_HOME%\bin;C:\Users\Administrator\genrocket-3.5.17\genrocket-3.5.17\bin;C:\Users\Administrator\genrocket-3.5.17\genrocket-3.5.17\;."/>
       <property name="soapui.home" value="C:\Program Files\SmartBear\ReadyAPI-2.7.0\bin\"/>
       <property name="sun.awt.enableExtraMouseButtons" value="true"/>
@@ -70,20 +70,20 @@
       <property name="sun.desktop" value="windows"/>
       <property name="sun.cpu.isalist" value="amd64"/>
     </properties>
-    <testcase name="FED-9" time="0.786">
+    <testcase name="FED-14_LoadTest" time="0.827">
+      <properties>
+        <property name="name" value="teststep1"/>
+      </properties>
+    </testcase>
+    <testcase name="FED-9" time="0.2">
       <properties>
         <property name="name" value="Hello"/>
         <property name="ResTime" value="Hello"/>
       </properties>
     </testcase>
-    <testcase name="FED-10" time="0.744">
+    <testcase name="FED-10" time="0.695">
       <properties>
         <property name="name" value="Hello"/>
-      </properties>
-    </testcase>
-    <testcase name="FED-14_LoadTest" time="0.173">
-      <properties>
-        <property name="name" value="teststep1"/>
       </properties>
     </testcase>
   </testsuite>

@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 36
+Time Taken: 24
 Size: 152
-Timestamp: Tue Jul 02 17:27:33 UTC 2019
+Timestamp: Tue Jul 02 18:34:32 UTC 2019
 TestStep: ItemAvailability_TS
 
 ----------------- Messages ------------------------------
@@ -11,7 +11,7 @@ HTTP Version: HTTP/1.1
 Endpoint: http://items-api.cfapps.io
 Method: GET
 StatusCode: 200
-URL: http://items-api.cfapps.io/itemavailability/esky-pfl4/23173/62
+URL: http://items-api.cfapps.io/itemavailability/ebff-bpc15/62701/27
 
 ---------------- Request ---------------------------
 Connection: [Keep-Alive]
@@ -20,7 +20,7 @@ Host: [items-api.cfapps.io]
 Accept-Encoding: [gzip,deflate]
 Content-Length: [0]
 
-GET http://items-api.cfapps.io/itemavailability/esky-pfl4/23173/62 HTTP/1.1
+GET http://items-api.cfapps.io/itemavailability/ebff-bpc15/62701/27 HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Length: 0
 Host: items-api.cfapps.io
@@ -32,8 +32,8 @@ User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_181)
 Connection: [keep-alive]
 #status#: [HTTP/1.1 200 OK]
 Content-Length: [152]
-Date: [Tue, 02 Jul 2019 17:27:35 GMT]
-X-Vcap-Request-Id: [6ebee89f-a6a5-405c-5df9-9afd1ddfdcd2]
+Date: [Tue, 02 Jul 2019 18:34:34 GMT]
+X-Vcap-Request-Id: [e07e6f3c-92e8-42ac-5a9f-bbc35b32cd69]
 Content-Type: [application/json;charset=UTF-8]
 
 {"status":"ok","message":"SUCCESS","data":{"stockAvailability":"Item cannot be delivered to the selected location/zone","quantity":0.0,"timeSlot":null}}
