@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 32
+Time Taken: 49
 Size: 152
-Timestamp: Mon Jul 01 10:08:27 UTC 2019
+Timestamp: Tue Jul 02 17:27:33 UTC 2019
 TestStep: ItemAvailability_TS
 
 ----------------- Messages ------------------------------
@@ -11,7 +11,7 @@ HTTP Version: HTTP/1.1
 Endpoint: http://items-api.cfapps.io
 Method: GET
 StatusCode: 200
-URL: http://items-api.cfapps.io/itemavailability/-ed--/00601/717
+URL: http://items-api.cfapps.io/itemavailability/piaj-nqg3/40601/82
 
 ---------------- Request ---------------------------
 Connection: [Keep-Alive]
@@ -20,7 +20,7 @@ Host: [items-api.cfapps.io]
 Accept-Encoding: [gzip,deflate]
 Content-Length: [0]
 
-GET http://items-api.cfapps.io/itemavailability/-ed--/00601/717 HTTP/1.1
+GET http://items-api.cfapps.io/itemavailability/piaj-nqg3/40601/82 HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Length: 0
 Host: items-api.cfapps.io
@@ -32,8 +32,8 @@ User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_181)
 Connection: [keep-alive]
 #status#: [HTTP/1.1 200 OK]
 Content-Length: [152]
-Date: [Mon, 01 Jul 2019 10:08:28 GMT]
-X-Vcap-Request-Id: [9d902046-6a1b-4655-4891-719e2d1c8199]
+Date: [Tue, 02 Jul 2019 17:27:35 GMT]
+X-Vcap-Request-Id: [320b5b57-32fa-4d78-7847-ebf1f65ec752]
 Content-Type: [application/json;charset=UTF-8]
 
 {"status":"ok","message":"SUCCESS","data":{"stockAvailability":"Item cannot be delivered to the selected location/zone","quantity":0.0,"timeSlot":null}}

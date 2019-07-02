@@ -1,5 +1,5 @@
 Status: UNKNOWN
-Time Taken: 47
+Time Taken: 29
 Size: 152
 Timestamp: Tue Jul 02 17:27:33 UTC 2019
 TestStep: ItemAvailability_TS
@@ -11,7 +11,7 @@ HTTP Version: HTTP/1.1
 Endpoint: http://items-api.cfapps.io
 Method: GET
 StatusCode: 200
-URL: http://items-api.cfapps.io/itemavailability/yrnq-ckn19/29201/68
+URL: http://items-api.cfapps.io/itemavailability/ujuk-deg11/25301/22
 
 ---------------- Request ---------------------------
 Connection: [Keep-Alive]
@@ -20,7 +20,7 @@ Host: [items-api.cfapps.io]
 Accept-Encoding: [gzip,deflate]
 Content-Length: [0]
 
-GET http://items-api.cfapps.io/itemavailability/yrnq-ckn19/29201/68 HTTP/1.1
+GET http://items-api.cfapps.io/itemavailability/ujuk-deg11/25301/22 HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Length: 0
 Host: items-api.cfapps.io
@@ -33,7 +33,7 @@ Connection: [keep-alive]
 #status#: [HTTP/1.1 200 OK]
 Content-Length: [152]
 Date: [Tue, 02 Jul 2019 17:27:35 GMT]
-X-Vcap-Request-Id: [83f75bd3-9106-48b9-54f7-9c2f10e7ceb6]
+X-Vcap-Request-Id: [ce2f5637-8536-4766-71a2-d78839452443]
 Content-Type: [application/json;charset=UTF-8]
 
 {"status":"ok","message":"SUCCESS","data":{"stockAvailability":"Item cannot be delivered to the selected location/zone","quantity":0.0,"timeSlot":null}}

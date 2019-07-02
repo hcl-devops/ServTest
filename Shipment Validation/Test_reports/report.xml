@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="FedEx_Demo_Proj.TestSuite_Create Items API" time="2.566" tests="3" failures="0" errors="0" package="FedEx_Demo_Proj" id="1">
+  <testsuite name="FedEx_Demo_Proj.TestSuite_Create Items API" time="3.398" tests="3" failures="0" errors="0" package="FedEx_Demo_Proj" id="1">
     <properties>
       <property name="soapui.properties" value="soapui.properties"/>
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -34,8 +34,8 @@
       <property name="os.name" value="Windows Server 2012 R2"/>
       <property name="org.eclipse.jetty.util.log.class" value="com.eviware.soapui.support.log.JettyLogger"/>
       <property name="sun.jnu.encoding" value="Cp1252"/>
-      <property name="jnidispatch.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\jna-146731693\jna2625473403351044871.dll"/>
-      <property name="java.library.path" value="C:\Program Files\SmartBear\ReadyAPI-2.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Git\bin;C:\apache-ant-1.9.7\bin;C:\apache-maven-3.3.9\bin;C:\gradle-3.1\bin;C:\genrocket-3.5.5\bin;C:\Program Files\SmartBear\ReadyAPI-1.8.0\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Roaming\npm;."/>
+      <property name="jnidispatch.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\jna-146731693\jna8188401076922196410.dll"/>
+      <property name="java.library.path" value="C:\Program Files\SmartBear\ReadyAPI-2.7.0\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Git\bin;C:\apache-ant-1.9.7\bin;C:\apache-maven-3.3.9\bin;C:\gradle-3.1\bin;%GEN_ROCKET_HOME%\bin;C:\Program Files\SmartBear\ReadyAPI-1.8.0\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;%GEN_ROCKET_HOME%\bin;C:\Users\Administrator\genrocket-3.5.17\genrocket-3.5.17\bin;C:\Users\Administrator\genrocket-3.5.17\genrocket-3.5.17\;."/>
       <property name="soapui.home" value="C:\Program Files\SmartBear\ReadyAPI-2.7.0\bin\"/>
       <property name="sun.awt.enableExtraMouseButtons" value="true"/>
       <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -51,7 +51,7 @@
       <property name="user.name" value="Administrator"/>
       <property name="soapui.ext.listeners" value="C:\Program Files\SmartBear\ReadyAPI-2.7.0\bin\listeners"/>
       <property name="java.vm.specification.version" value="1.8"/>
-      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -r -a -j -J -fC:\jenkins\workspace\Shipment Validation\Shipment Validation\Test_reports -g -o -RJUnit-Style HTML Report -FXML -EDefault environment C:\jenkins\workspace\Shipment Validation\Shipment Validation"/>
+      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -r -a -j -J -fC:\jenkins\workspace\PCF-Items-API_Test\Shipment Validation\Test_reports -g -o -RJUnit-Style HTML Report -FXML -EDefault environment C:\jenkins\workspace\PCF-Items-API_Test\Shipment Validation"/>
       <property name="java.home" value="C:\Program Files\SmartBear\ReadyAPI-2.7.0\jre"/>
       <property name="sun.arch.data.model" value="64"/>
       <property name="groovy.source.encoding" value="iso-8859-1"/>
@@ -70,17 +70,18 @@
       <property name="sun.desktop" value="windows"/>
       <property name="sun.cpu.isalist" value="amd64"/>
     </properties>
-    <testcase name="FED-9" time="0.469">
+    <testcase name="FED-9" time="0.786">
       <properties>
-        <property name="name" value="teststep1"/>
+        <property name="name" value="Hello"/>
+        <property name="ResTime" value="Hello"/>
       </properties>
     </testcase>
-    <testcase name="FED-10" time="0.8">
+    <testcase name="FED-10" time="0.744">
       <properties>
         <property name="name" value="Hello"/>
       </properties>
     </testcase>
-    <testcase name="FED-9_LoadTest" time="0.118">
+    <testcase name="FED-14_LoadTest" time="0.173">
       <properties>
         <property name="name" value="teststep1"/>
       </properties>

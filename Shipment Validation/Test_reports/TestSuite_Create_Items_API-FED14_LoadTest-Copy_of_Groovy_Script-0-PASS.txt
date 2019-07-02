@@ -1,8 +1,7 @@
 Status: PASS
-Time Taken: 0
+Time Taken: 36
 Size: 0
 Timestamp: Tue Jul 02 17:27:33 UTC 2019
-TestStep: DataSource Loop
+TestStep: Copy of Groovy Script
 
 ----------------- Messages ------------------------------
-Data Row 8

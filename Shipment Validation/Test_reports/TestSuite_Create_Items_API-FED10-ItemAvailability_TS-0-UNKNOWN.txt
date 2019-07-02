@@ -1,7 +1,7 @@
 Status: UNKNOWN
-Time Taken: 53
-Size: 152
-Timestamp: Mon Jul 01 10:08:27 UTC 2019
+Time Taken: 20
+Size: 301
+Timestamp: Tue Jul 02 17:27:33 UTC 2019
 TestStep: ItemAvailability_TS
 
 ----------------- Messages ------------------------------
@@ -10,8 +10,8 @@ TestStep: ItemAvailability_TS
 HTTP Version: HTTP/1.1
 Endpoint: http://items-api.cfapps.io
 Method: GET
-StatusCode: 200
-URL: http://items-api.cfapps.io/itemavailability/2o2eo/00501/765
+StatusCode: 400
+URL: http://items-api.cfapps.io/itemavailability/itemId/zipCode/quantity
 
 ---------------- Request ---------------------------
 Connection: [Keep-Alive]
@@ -20,7 +20,7 @@ Host: [items-api.cfapps.io]
 Accept-Encoding: [gzip,deflate]
 Content-Length: [0]
 
-GET http://items-api.cfapps.io/itemavailability/2o2eo/00501/765 HTTP/1.1
+GET http://items-api.cfapps.io/itemavailability/itemId/zipCode/quantity HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Length: 0
 Host: items-api.cfapps.io
@@ -30,10 +30,10 @@ User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_181)
 
 ---------------- Response --------------------------
 Connection: [keep-alive]
-#status#: [HTTP/1.1 200 OK]
-Content-Length: [152]
-Date: [Mon, 01 Jul 2019 10:08:28 GMT]
-X-Vcap-Request-Id: [148f0c95-14a7-4260-4a07-31b7550332ea]
+#status#: [HTTP/1.1 400 Bad Request]
+Content-Length: [301]
+Date: [Tue, 02 Jul 2019 17:27:35 GMT]
+X-Vcap-Request-Id: [66c982ef-176f-464a-6960-a974a228adb4]
 Content-Type: [application/json;charset=UTF-8]
 
-{"status":"ok","message":"SUCCESS","data":{"stockAvailability":"Item cannot be delivered to the selected location/zone","quantity":0.0,"timeSlot":null}}
+{"timestamp":"2019-07-02T17:27:35.157+0000","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: \"quantity\"","path":"/itemavailability/itemId/zipCode/quantity"}
